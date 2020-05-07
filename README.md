@@ -1,7 +1,5 @@
 # ETL - Scraping YouTube Video Playlist Stats with Python
-One of the most challenging aspects of working in social media marketing for entertainment is getting an accurate portrayal of reach when a new video is released as part of a major beat.
-
-A big part of your reach will come from owned channels, while others may come from media parters, and even superfans who rip video content for their own channels. Believe me when I say I've spent a large deal of time between YouTube and a manual spreadsheet trying to record the internet's reception of our campaign's content after the first day, second day, third day and so on...
+One of the most challenging aspects of working in social media marketing for entertainment is getting an accurate portrayal of reach when a new video is released as part of a major beat. A big part of your reach will come from owned channels, while others may come from media partners, and even superfans who rip video content for their own channels. Believe me when I say I've spent a large deal of time between YouTube and a manual spreadsheet trying to record the internet's reception of our campaign's content after the first day, second day, third day and so on...
 
 In this project, I'll walk you through a webscraping tool I developed to automate YouTube statistics recording for loading into a dataframe or database.
 
