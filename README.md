@@ -112,7 +112,7 @@ def get_stats(youtube_url):
 ```
 
 ## Web Scraping Playlist Pages
-Now that we have the ability to scrape one page based on the provided URL, we'll now write a scraping function to create a list of extracted video urls from a YouTube playlist page. The hardest challenge of this step is navigating the infinite scroll to load the full list of videos when there is more than 100 videos in the playlist. This problem was solved by programming the scroller to go to the bottom of the page for every 100 videos listed in the vidieo count summary.
+Now that we have the ability to scrape one page based on the provided URL, we'll now write a scraping function to create a list of extracted video urls from a YouTube playlist page. The hardest challenge of this step is navigating the infinite scroll to load the full list of videos when there is more than 100 videos in the playlist. This problem was solved by programming the scroller to go to the bottom of the page for every 100 videos listed in the video count summary.
 
 ```
 def get_video_urls(youtube_playlist_url):
