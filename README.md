@@ -157,7 +157,16 @@ def create_export(url):
     return all_stats
 ```
 ## Demonstration of the Tool
-
+```
 wwe = create_export('https://www.youtube.com/playlist?list=PL7qtZGedQPadDiw6Y-XgiQIk035CQc3pm')
 df = pd.DataFrame(wwe)
 df.sort_values("views", ascending=False)
+```
+![](https://github.com/gtieng/youtube_trailer_scraper/blob/master/markdown_images/yt_df.png?raw=true)
+
+## Authors
+
+**Gerard Tieng** — *Data Analyst & Social Media Marketer*
+- [http://www.twitter.com/gerardtieng](http://www.twitter.com/gerardtieng)
+- [http://www.linkedin.com/in/gerardtieng](http://www.linkedin.com/in/gerardtieng)
+- [http://www.github.com/gtieng](http://www.github.com/gtieng)
