@@ -155,7 +155,7 @@ def create_export(url):
     return all_stats
 ```
 ## Demonstration of the Tool
-The playlist created for this example comprises of uploads of the WWE Battlegrounds Announcement Trailer that released on April 27, 2020. Only videos with 5k views or more was included in the list.
+The [playlist created for this example](https://www.youtube.com/playlist?list=PL7qtZGedQPadDiw6Y-XgiQIk035CQc3pm) comprises of uploads of the WWE Battlegrounds Announcement Trailer that released on April 27, 2020. Only videos with 5k views or more was included in the list.
 
 ```
 wwe = create_export('https://www.youtube.com/playlist?list=PL7qtZGedQPadDiw6Y-XgiQIk035CQc3pm')
